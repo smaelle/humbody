@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HUMAN BODY</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>HUMAN BODY</h1>
+
+    <div class="container">
+
+        <div onclick="openModal('body')" class="container-card">
+            <img src="./media/img/qijx.png" alt="">
+        </div>
+
+        <div onclick="openModal('epaule')" class="container-card">
+                <h2 id="title-epaule"></h2>
+                <p id="text-epaule"></p>
+            </div>
+
+    </div>
+
+    <div class="container-modal">
+        <div class="modal">
+            <h2 id="title-epaule">EPAULE</h2>
+            <p id="text-modal">La région morphologique de l'épaule (nom féminin)
+                permet la jonction du tronc avec le menbre supérieur au niveau du bras.
+                Elle comporte plusieurs articulations qui concourent à en faire l'articulations
+                la plus mobile du corps humain. Elle permet d'orienter le menbre supérieur
+                dans l'espace, permettant en particulier à son extrémité effectrice, la main,
+                d'assurer ses rôles de préhension et de communication avec l'environnement
+                situé à sa portée.</p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
